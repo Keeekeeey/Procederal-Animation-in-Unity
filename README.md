@@ -14,6 +14,8 @@ A Unity project featuring a fully procedurally animated bearded dragon with real
 - The underlying logic is driven by various realtionships between objects - specifically the realtionships between Inverse Kinematic handles and their pole vectors. Because the two rely on each other for placment of meshs, they can be manipulated to create a 'stepping' motion. The 'stepper' code then expands upon the resulting motion, adding dampening and randomness. Similarly the code builds upon the root-target relationship, adding a minium and maxium distance among other details that allow for a fluid, realistic animation that is responsive to the user. 
 > see ![this video](https://www.youtube.com/watch?v=7agbdEiCbdQ) for a more in-depth exploration
 
+![Beardied Dragon Gif with Handles](./ReadMeVisuals/beardie_handles.gif)
+
 ## Learning Resources
 
 - [Inverse Kinematics explained](https://www.youtube.com/results?search_query=inverse+kinematics+unity)
